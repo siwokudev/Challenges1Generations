@@ -4,6 +4,16 @@ package model;
 public abstract class Reto2 {
 	public static boolean isHappy(int number) {
 		
+		
+		int result = isHappy2(number);
+		
+		while(result != 1) {
+			result = isHappy2(result);
+		}
+		
+		return true;
+		
+		/*
 		int result = sumaCuadrados(toArray(number));
 		
 		while(result != 1) {
@@ -11,11 +21,10 @@ public abstract class Reto2 {
 		}
 		
 		return true;
-		
+		*/
 		
 		/*//recursive method
 		int resultado = sumaCuadrados(toArray(number));
-		System.out.println(resultado);
 		if( resultado == 1 ) {
 			return true;
 		} else {
@@ -57,6 +66,19 @@ public abstract class Reto2 {
 		return array;
 		
 
+	}
+	
+	private static int isHappy2(int number) {
+		int result = 0;
+		String number2 = ((Integer) number).toString();
+		int array[] = new int[number2.length()];
+		
+		for(int i=0; i<number2.length(); i++) {
+			array[i] =Character.getNumericValue( number2.charAt(i) );
+			result += (array[i] * array[i]);
+		}
+
+		return result;
 	}
 	
 }

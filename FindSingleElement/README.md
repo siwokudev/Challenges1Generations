@@ -1,6 +1,6 @@
-# Reto 1 Generations
+# Descripcion del Problema:
 
-### Descripcion del Problema:
+### Encuentra el elemento único
 
 Dado un arreglo de elementos ordenados qu consiste solo de enteros, donde cada elemento aparece dos veces con excepcion de un elemento que aparece solo una vez. Encontrar ese elemento unico que aparece solo una vez.
 
@@ -20,7 +20,7 @@ Dado un arreglo de elementos ordenados qu consiste solo de enteros, donde cada e
 
 Tomando en cuenta que los elementos aparecen en pares y no más, y hay un elemento único, podemos ir revisando de dos en dos, y al encontrar una pareja cuyos elementos no sean iguales, tendrémos el elemento único
 
-El código resultanet es el siguiente
+El código resultante es el siguiente
 
 ```
 package model;
