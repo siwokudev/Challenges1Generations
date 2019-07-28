@@ -7,11 +7,18 @@ Se te entrega un String J representando los tipos de piedras que son joyas, y un
 las letras en J estan garantizadas a ser diferentes, y todos los caracyeres en J y S son letras, las letras son "case sensitive" (sensible a mayusculas y minusculas), así "a" es considerada como un tipo diferente de piedra que "A"
 
 > Example 1:
+>
+>
 >Input J = "aA", S = "aAAbbbb"
+>
 >Output: 3
 >
+>
 >Example 2:
+>
+>
 >Input: J = "z", S = "ZZ"
+>
 >Output: 0
 
 
@@ -71,4 +78,5 @@ public class MainApp {
 #### Resultado
 
 >3
+>
 >0

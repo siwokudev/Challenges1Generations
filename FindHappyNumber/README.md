@@ -7,12 +7,17 @@ un número "happy" es un número definido por el siguiente proceso: Comenzando con
 > Example:
 >
 >Input: 94
+>
 >Output: true
 >
 >Explanation:
+>
 >9^2 + 4^2 = 97
+>
 >9^2 + 7^2 = 130
+>
 >1^2 + 3^2 + 0^2 = 10
+>
 >1^2 + 0^2 = 1 "it's a happy number"
 
 ### Solución
